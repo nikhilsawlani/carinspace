@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class EnterCoin : MonoBehaviour {
 	
 	public Text score;
-	int currentscore;
+	public int currentscore;
 	// Use this for initialization
 	void Start () {
 		
@@ -14,7 +14,7 @@ public class EnterCoin : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		int.TryParse (score.text, out currentscore);
 	}
 
 
