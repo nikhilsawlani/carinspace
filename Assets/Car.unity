@@ -5151,6 +5151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: {fileID: 127681061}
+  timeleft: 60
 --- !u!1 &438125853 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100022, guid: b592d2faa93e6ad46a6d520adf8f123e, type: 2}
@@ -6192,6 +6193,22 @@ Prefab:
     - target: {fileID: 11400004, guid: 174090ae7f9eff84abe76f0ff062efac, type: 2}
       propertyPath: returnToCentreSpeed
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 22300000, guid: 174090ae7f9eff84abe76f0ff062efac, type: 2}
+      propertyPath: m_RenderMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22400000, guid: 174090ae7f9eff84abe76f0ff062efac, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22400000, guid: 174090ae7f9eff84abe76f0ff062efac, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22400000, guid: 174090ae7f9eff84abe76f0ff062efac, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 174090ae7f9eff84abe76f0ff062efac, type: 2}

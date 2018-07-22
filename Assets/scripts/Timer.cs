@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour {
 	public Text timer;
-	float timeleft = 60.0f;
+	public float timeleft = 60.0f;
 	// Use this for initialization
 	void Start () {
 		
@@ -14,11 +14,18 @@ public class Timer : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+		//float.TryParse (timer.text, out timeleft);
 		timeleft -= Time.deltaTime;
 		timer.text = timeleft.ToString ("F1");
 		if (timeleft < 0) {
 			SceneManager.LoadScene (1);
 
 		}
+
+
 	}
+
+
+
 }
